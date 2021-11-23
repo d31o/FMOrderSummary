@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Red+Hat+Display:wght@500;700;900&family=Sacramento&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;    font-size: 16px;
+    height: 95vh;
+    justify-content: center;
+    margin: auto;
+}
+
+.order-summary-card {
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 725px;
+    margin: 0;
+    width: 450px;
+    box-shadow: 12px 12px 25px 1px rgba(0, 0, 0, .2);
+
+}
+
+.hero {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+.order-summary {
+    width: 75%;
+    text-align: center;
+    padding: 75px 0 25px 0;
+}
+
+h2 {
+    position: relative;
+    bottom: 25px;
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-cost {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    height: 100px;
+    width: 350px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin: 0 125px 0 20px;
+}
+
+.change {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.payment-btn {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 30px 0 25px;
+}
+
+.payment-btn:hover {
+    background-color: hsl(245, 75%, 56%);
+    box-shadow: 1px 12px 25px 1px rgba(0, 0, 0, .2);
+}
+
+.ptp {
+    color: white;
+    text-decoration: none;
+}
+
+.cancel {
+    color: hsl(223, 10%, 36%);
+    text-decoration: none;
+}
+
+.cancel:hover {
+    color: hsl(223, 10%, 10%);
+    font-weight: bolder;
+}
